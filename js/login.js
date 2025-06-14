@@ -21,7 +21,7 @@ submit.addEventListener("click", () => {
 
     if (user && user.pass === password) {
         console.log("Usuario correcto");
-        window.location.href = "html/index.html";
+        window.location.href = "html/pagina.html";
     } else {
     alert("Usuario o contraseña incorrectos");
     }
