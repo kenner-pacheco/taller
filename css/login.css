@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Times New Roman';
+    background: linear-gradient(to right, #edb1318b, #407934e6);
+    color: #1d1d1d; ;
+    height: 100vh;
+}
+.titulo {
+      margin:1rem;
+      background-color: #0b8457;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.login{
+    margin: 1rem;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    width:400px;
+    background: #527e3b;
+    border-radius:10px;
+}
+.login h1{
+    text-align: center;
+    font-family: 'Times New Roman';
+    padding:20px;
+}
+.login form{
+    padding:  40px;
+    box-sizing: border-box;
+}
+form .usuario{
+    position: relative;
+    border-bottom: 2px solid #5aed62;
+    margin: 30px ;
+}
+form .contraseña{
+    position: relative;
+    border-bottom: 2px solid #5aed62;
+    margin: 30px ;
+}
+.boton{
+    padding: 10px 20px;      
+    background-color: #4CAF50; 
+    color: white;          
+    border: none;
+}
+.foo {
+      margin: 1rem;
+      background-color: #0b8457;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 50%;
+    }
